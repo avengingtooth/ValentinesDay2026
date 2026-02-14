@@ -23,11 +23,6 @@ export function Quiz(){
         )
     }
 
-    if(questionNb > data.length - 1){
-        window.location.href = "/happyvalentinesday"
-        return
-    }
-
     const pictureIndexes = data[questionNb]? data[questionNb].pictures : [0,0]
 
     return(

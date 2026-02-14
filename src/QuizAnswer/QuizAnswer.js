@@ -16,7 +16,7 @@ export function QuizAnswer(){
     useEffect(() => {
         fetch('/text.json')
         .then(response => response.json())
-        .then(data => setData(data.questions[questionNb]))
+        .then(data => setData(data.questions))
         .catch(error => console.error('Error fetching data:', error));
     }, [questionNb]);
 
@@ -26,7 +26,9 @@ export function QuizAnswer(){
         )
     }
 
-    const correct = data.corect_answer === id
+    const questionData = data[questionNb]
+    const correct = questionData.corect_answer === id
+    const lastQuestion = !(questionNb < data.length - 1)
 
     return(
         <div id="layout">
@@ -35,11 +37,11 @@ export function QuizAnswer(){
             {
                 correct
                 ?
-                    <Correct questionData={data} questionNb={questionNb}></Correct>
+                    <Correct questionData={questionData} questionNb={questionNb}></Correct>
                 :
-                    <Incorrect questionData={data} questionNb={questionNb}/>
+                    <Incorrect questionData={questionData} questionNb={questionNb}/>
             }
-            <Link to={`/quiz/${questionNb + 1}`}>
+            <Link to={lastQuestion?`/happyvalentinesday`:`/quiz/${questionNb + 1}`}>
                 <button id="next_button" className="boogaloo">
                     Next
                 </button>
