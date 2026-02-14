@@ -39,7 +39,7 @@ export function QuizAnswer(){
                 :
                     <Incorrect questionData={data} questionNb={questionNb}/>
             }
-            <Link to={`/Quiz/${questionNb + 1}`}>
+            <Link to={`/quiz/${questionNb + 1}`}>
                 <button id="next_button" className="boogaloo">
                     Next
                 </button>
