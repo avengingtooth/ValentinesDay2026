@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: pink;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#layout{
+  background-color: pink;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hearts{
+  position: fixed
+}
+
+.boogaloo{
+  font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150%;
+}
+
+p{
+  font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150%;
+}
+
+h1{
+  font-family: "Montez", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 400%;
+  text-align: center;
+}
+
+.photos{
+  width: 20vw;
+  position: fixed;
+  border-radius: 15%;
 }

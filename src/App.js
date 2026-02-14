@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Home } from './Home/Home';
+import { Quiz } from './Quiz/Quiz';
+import { QuizAnswer } from './QuizAnswer/QuizAnswer';
+import { FinalMessage } from './FinalMessage/FinalMessage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Montez&display=swap" rel="stylesheet"/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/quiz/:questionNb" element={<Quiz />} />
+          <Route path="/quiz/:id/:questionNb" element={<QuizAnswer />} />
+          <Route path="/happyvalentinesday" element={<FinalMessage />} />
+        </Routes>
+      </BrowserRouter>
   );
 }
 

@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.start_button {
+    padding: 0.6em 2em;
+    border: none;
+    color: black;
+    background: #c31f66;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+}

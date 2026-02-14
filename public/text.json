@@ -1,0 +1,136 @@
+{
+    "home": {
+        "main_header": "Happy Valentine's day my love",
+        "home_main_text": "Hi baby <3 I love you so so so much!!! You have no idea how much I would do anything to be with you right now but since I can't be there to annoy you in person I figured this would have to be the next best thing (get ready to be impressed by my stupidity lol)"
+    },
+    "questions": [
+        {
+            "question": "What is the strangest thing I’ve seen / heard you do?",
+            "options": [
+                "Eat raw cupped noodles",
+                "Do drunk pull ups on my bed",
+                "Show me your toes and all fingers to prove you weren’t crossing",
+                "Question whether a cucumber was the same size as your dick"
+            ],
+            "corect_answer": -1,
+            "incorrect": "All of the above (I know it wasn't an option lol) I love all those moments they were so adorable and funny incredible memories that I'll never let you forget hahaha",
+            "correct": "",
+            "pictures": [8, 9]
+        },
+        {
+            "question": "What did I want to be when I grew up?",
+            "options": [
+                "Software developper",
+                "Teacher",
+                "Vet",
+                "Alcoholic"
+            ],
+            "corect_answer": 1,
+            "incorrect": "Well to be fair vet was kind of an option as a kid until I realized some of the animals would have to die... and alcoholic should've been my aspiration lol",
+            "correct": "Correctttt aweee you listen to me babyyy tbh vet was kind of an option as a kid until I realized some of the animals would have to die... and alcoholic should've been my aspiration lol",
+            "pictures": [10, 11]
+        },
+        {
+            "question": "Which color do you think has the worst personality?",
+            "options": [
+                "Red",
+                "Blue",
+                "Purple",
+                "Orange"
+            ],
+            "corect_answer": 3,
+            "incorrect": "Okay seriously orange is the only correct option are you okay??? You must've been really hurt as a kid lol orange is just so ew orange (ignore that Mclaren is orange...)",
+            "correct": "Thank god you're sane the other colors would have great personalities (sadly I still have to wear some orange for Mclaren it's very sad)",
+            "pictures": [12, 13]
+        },
+        {
+            "question": "Is pineapple on pizza acceptable?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "corect_answer": 1,
+            "incorrect": "Erm mentally are you okay??? I think Corinna might have to murder you and maybe me too cuz what",
+            "correct": "Woohooo thank god we can go to Italy together without anyone dying hallelujah!!!",
+            "pictures": [22, 23]
+        },
+        {
+            "question": "If I was a guy for a day what would I do first?",
+            "options": [
+                "Helicopter bitchesss",
+                "Pee standing",
+                "Have you take it up the ass",
+                "Try to suck my own dick"
+            ],
+            "corect_answer": 2,
+            "incorrect": "Yeah no definitely make you take it up the ass the other things sound fun but gotta make sure you had the full gay experience in your life lol aren't I just so kind and thoughtful",
+            "correct": "Aweee you know me too well aren't you exicted I mean now I gotta fund research that allows me to have a dick for a day",
+            "pictures": [14, 15]
+        },
+        {
+            "question": "What is my favorite alcohol?",
+            "options": [
+                "Vodka",
+                "Beer",
+                "Tequila",
+                "Rum"
+            ],
+            "corect_answer": 1,
+            "incorrect": "If you answered rum or vodka um we need to go drinking more cuz I hate rum and well you know vodka lol (although it is great in cocktails) tequila is a valid choice but it's still a shot so eh taste wise lol",
+            "correct": "BEER IS LIFEEEEE (I love me some beer only blondes tho) I seriously need to learn to chug at this age it's disappointing",
+            "pictures": [16, 17]
+        },
+        {
+            "question": "What was my first crochet project?",
+            "options": [
+                "Pig",
+                "Beanie",
+                "Frog",
+                "Scarf"
+            ],
+            "corect_answer": 0,
+            "incorrect": "Beanie was my first completed project but technically the first project I started was this little pig (spoiler alert did not match the picture)",
+            "correct": "How tf you guessed that is insane cuz pig is a big word to use to describe what I ended up with more like a lopsided pink ball lol (I gave up before I finished...)",
+            "pictures": [26, 27]
+        },
+        {
+            "question": "What was my favortie book series as a kid (6th grade ish)?",
+            "options": [
+                "The Keeper's of the Lost Cities",
+                "Harry Potter",
+                "Percy Jackson",
+                "Oksa Pollock"
+            ],
+            "corect_answer": 2,
+            "incorrect": "Loved all these books but Percy Jackson / all the Rick Riordan books were the absolute best I may have had a mild obsession with mythology I still find it so interesting why was faith so much more interesting then like why do we just get Jesus fuck him lol",
+            "correct": "Yesss Percy Jackson well all of the Rick Riordan books were so amazinggg peak childhood books except that they were almost never available in the library and kept going missing -_-",
+            "pictures": [18, 19]
+        },
+        {
+            "question": "What was my favorite subject in school?",
+            "options": [
+                "Chemistry",
+                "Math",
+                "Physics",
+                "English"
+            ],
+            "corect_answer": 0,
+            "incorrect": "Math was so fun but a little boring and I kept getting told off for finishing my work early asf so chemistry was my favorite bonus I got to burn stuff (may have made a mini bondfire in the lab sinks lol) Physics and English were just shit except with Mr. Richarddd he's an icon",
+            "correct": "Chemistry for lifeeee it's my babbyyyy less boring than math but still logical lmao but I will still complain about everything having to do with Chemistry lol I just remembered but that was actually the second thing I wanted to do as a kid (like 9th grade) and my parents shot it down cuz what can you do with a chemistry degree... lol",
+            "pictures": [24, 25]
+        },
+        {
+            "question": "What do I miss most about you?",
+            "options": [
+                "Being held in your arms and holding you in my arms",
+                "Stepping on your feet while you try to teach me to dance",
+                "Our 4am conversations on the balcony",
+                "All of the above"
+            ],
+            "corect_answer": -1,
+            "incorrect": "All of the above isn't even enough my love I miss so much more then just this. I miss waking up and seeing you next to me, going out with our friends together, bullying you out of the kitchen while I'm baking and getting bullied out of the kitchen when you're cooking anyways I miss everything about you you're my everthing baby <3",
+            "correct": "",
+            "pictures": [20, 21]
+        }
+    ]
+}
